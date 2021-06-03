@@ -7,7 +7,7 @@ import { getRandom } from "./utils/mapHelper";
 import locations from "./components/locations.json";
 
 const App = () => {
-  const API_KEY = process.env.REACT_APP_API_KEY_GsW;
+  const API_KEY = process.env.REACT_APP_API_KEY_GSW;
   const [positions, setPositions] = useState();
 
   const [round, setRound] = useState(1);
